@@ -1,9 +1,6 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { RiReactjsFill } from "react-icons/ri";
 
 const Experience = () => {
   return (
@@ -23,21 +20,21 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <FaHtml5 className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
-              <IoLogoJavascript className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
-              <RiReactjsFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>TypeScript</h4>
                 {/* <small className="text-light">Experienced</small> */}
@@ -63,21 +60,21 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <FaHtml5 className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>ExpressJS</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
-              <IoLogoJavascript className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB/PostgreSQL</h4>
+                <h4>MongoDB</h4>
                 {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="experience__details">
-              <RiReactjsFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>REST</h4>
                 {/* <small className="text-light">Experienced</small> */}
