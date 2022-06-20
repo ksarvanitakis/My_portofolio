@@ -22,6 +22,9 @@
   overflow: hidden;
 }
 
+.portofolio__item h3 {
+  margin: 1.2rem  0 2rem;
+}
 .portofolio__item-cta {
   display: flex;
   gap: 1rem;

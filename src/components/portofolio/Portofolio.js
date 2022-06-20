@@ -14,6 +14,7 @@ const Portofolio = () => {
             <img src={IMG5} alt="" />
           </div>
           <h3>The Beer App</h3>
+          <div className="portofolio__item-cta">
           <a
             href="https://github.com/ksarvanitakis/The-Beer-App"
             className="btn"
@@ -23,12 +24,14 @@ const Portofolio = () => {
             className="btn btn-primary"
             target="_blank"
           >Live Demo</a>
+          </div>
         </article>
         <article className="portofolio__item">
           <div className="portofolio__item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>My Private Chef</h3>
+          <div className="portofolio__item-cta">
           <a
             href="https://github.com/ksarvanitakis/client"
             className="btn"
@@ -37,12 +40,13 @@ const Portofolio = () => {
             Github
           </a>
           <a
-            href="https://github.com/ksarvanitakis/client"
+            href="https://myprivatechef.herokuapp.com/"
             className="btn btn-primary"
             target="_blank"
           >
             Live Demo
           </a>
+          </div>
         </article>
       </div>
     </section>
