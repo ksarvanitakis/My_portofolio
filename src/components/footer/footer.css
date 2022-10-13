@@ -1,21 +1,22 @@
 footer {
     background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
+    padding: 2rem 0;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 3rem;
 }
 
 footer a {
     color: var(--color-bg);
 }
 
-footer__logo {
-    font-size: 2rem;
+/* footer__logo {
+    font-size: 50rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+     margin-bottom: 4rem; 
     display: inline-block;
-}
+    
+} */
 
 .links {
     display: flex;
