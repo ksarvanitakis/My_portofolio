@@ -22,7 +22,7 @@ const Contact = () => {
   < FiPhoneCall />
   <h4>Telephone</h4>
   <h5>+46(0)739308640</h5>
-  <a href=''>Call me</a>
+  <a href='https://api.whatsapp.com/end?phone+46739308640'>Call me</a>
 </article>
   </div>
   <form action=''>
